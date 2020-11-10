@@ -8,4 +8,3 @@ sock.bind((IP,PORT))
 
 while True:
     data, addr = sock.recvfrom(512)
-
